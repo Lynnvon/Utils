@@ -95,9 +95,7 @@ namespace Utils.Security
         }
 
         #endregion
-
-
-
+        
 
         #region 加密
 
@@ -108,7 +106,7 @@ namespace Utils.Security
         /// <returns></returns>
         public static string Des(string text)
         {
-            return Des(text, "shinbann", "Developp");
+            return Des(text, "lynnvonn", "Developp");
         }
 
         public static string Des(string value, string keyVal, string ivVal)
@@ -142,7 +140,7 @@ namespace Utils.Security
         /// <returns></returns>
         public static string UnDes(string text)
         {
-            return UnDes(text, "shinbann", "Developp");
+            return UnDes(text, "lynnvonn", "Developp");
         }
 
         public static string UnDes(string value, string keyVal, string ivVal)
