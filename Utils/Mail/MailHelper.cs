@@ -5,7 +5,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading;
 
-namespace NFine.Code
+namespace Utils.Mail
 {
     public class MailHelper
     {
